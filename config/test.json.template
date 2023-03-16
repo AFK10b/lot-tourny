@@ -2,16 +2,14 @@
   "server": {
     "port": 3301,
     "hostname": "http://localhost",
-    "dbKey": "Database 16 Byte Key.",
-    "steamAPIKey": "API Key For Steam Calls.",
+    "dbKey": "88ed5fad08ef44836e501616e2fa3709",
+    "steamAPIKey": "",
     "sharedSecret": "a secure secret for session sigining.",
     "clientHome": "http://localhost:8080",
     "useRedis": false,
     "apiURL": "http://localhost:8080/api/",
     "uploadDemos": false,
-    "localLoginEnabled": true,
-    "redisUrl": "redis://:super_secure@localhost:6379",
-    "redisTTL": 86400
+    "localLoginEnabled": true
   },
   "test": {
     "driver": "mysql",

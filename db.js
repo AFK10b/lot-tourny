@@ -3,12 +3,12 @@ import { createPool } from 'mysql2/promise';
 import config from 'config';
 
 const dbCfg = {
-  host: config.get(process.env.NODE_ENV+".host"),
-  port: config.get(process.env.NODE_ENV+".port"),
-  user: config.get(process.env.NODE_ENV+".user"),
-  password: config.get(process.env.NODE_ENV+".password"),
-  database: config.get(process.env.NODE_ENV+".database"),
-  connectionLimit: config.get(process.env.NODE_ENV+".connectionLimit")
+  host: "127.0.0.1",
+  port: 3306,
+  user: "root",
+  password: "123456",
+  database: "lot",
+  connectionLimit: 15
 }
 const connPool = createPool(dbCfg);
 
