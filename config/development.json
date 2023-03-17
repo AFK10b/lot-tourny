@@ -1,0 +1,32 @@
+{
+  "server": {
+    "port": 3301,
+    "hostname": "http://localhost",
+    "dbKey": "88ed5fad08ef44836e501616e2fa3709 ",
+    "steamAPIKey": "4D68245A82B5ACC74BD1068378A09AAD",
+    "sharedSecret": "lotgamingt6969",
+    "clientHome": "http://localhost:8080",
+    "useRedis": false,
+    "apiURL": "http://localhost:8080/api/",
+    "uploadDemos": false,
+    "localLoginEnabled": true
+  },
+  "development": {
+    "driver": "mysql",
+    "user": "root",
+    "password": "123456",
+    "database": "lot",
+    "multipleStatements": true,
+    "flags": { "ENV": "MYSQL_FLAGS" },
+    "host": "127.0.0.1",
+    "port": 3306,
+    "connectionLimit": 15
+  },
+  "admins": {
+    "steam_ids": "admins,go,here"
+  },
+  "super_admins": {
+    "steam_ids": "super_admins,go,here"
+  }
+}
+  
